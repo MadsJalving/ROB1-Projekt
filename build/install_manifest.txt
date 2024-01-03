@@ -1,0 +1,13 @@
+/home/user/catkin_ws/install/_setup_util.py
+/home/user/catkin_ws/install/env.sh
+/home/user/catkin_ws/install/setup.bash
+/home/user/catkin_ws/install/local_setup.bash
+/home/user/catkin_ws/install/setup.sh
+/home/user/catkin_ws/install/local_setup.sh
+/home/user/catkin_ws/install/setup.zsh
+/home/user/catkin_ws/install/local_setup.zsh
+/home/user/catkin_ws/install/.rosinstall
+/home/user/catkin_ws/install/lib/pkgconfig/mw_vision_example.pc
+/home/user/catkin_ws/install/share/mw_vision_example/cmake/mw_vision_exampleConfig.cmake
+/home/user/catkin_ws/install/share/mw_vision_example/cmake/mw_vision_exampleConfig-version.cmake
+/home/user/catkin_ws/install/share/mw_vision_example/package.xml
