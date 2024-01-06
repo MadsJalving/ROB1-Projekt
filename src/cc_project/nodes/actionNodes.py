@@ -81,13 +81,13 @@ class camNode:
 					M = cv2.moments(contour)
 					if M["m00"] != 0:
 						circlex = int(M["m10"] / M["m00"])
-						circlez = int(M["m01"] / M["m00"])
+						circley = int(M["m01"] / M["m00"])
 
 						coordinates_msg = Point()
 
 						coordinates_msg.x = circlex - 154 #origo i midten af robotten
-						coordinates_msg.y = 0		# højden af bolden bliver hardcodet
-						coordinates_msg.z = circlez - 187 #origo i midten af robotten
+						coordinates_msg.y = circley - 187 #origo i midten af robotten
+						coordinates_msg.z = 0 # højden af bolden bliver hardcodet
 
 						self.coordinate_publisher.publish(coordinates_msg)
 
